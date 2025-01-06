@@ -64,7 +64,7 @@ Custom vertex and fragment shaders handle:
 | Texture Image    | Uploads a custom texture to apply to the model.                  |
 
 ## Acknowledgements
-- Cem Yuksel: For providing the project setup and materials as part of his Intro to Computer Graphics course: https://graphics.cs.utah.edu/courses/cs4600/fall2024/
+- Cem Yuksel: For providing the project setup and materials as part of his Intro to Computer Graphics course: https://graphics.cs.utah.edu/courses/cs4600/fall2020/
 - This project was developed as part of a self-driven learning exercise in WebGL, shader programming, and physics simulation.
 
 
