@@ -972,17 +972,15 @@ function MousePos()
 var timer;
 function AutoRotate(param) {
     if (param.checked) {
+        const speed = 0.0075;
         timer = setInterval(() => {
-            const speed = parseFloat(document.getElementById("rotation-speed").value);
-            autorot += 0.0005 * speed;
+            autorot += speed;
             if (autorot > 2 * Math.PI) autorot -= 2 * Math.PI;
             UpdateViewMatrices();
             DrawScene();
         }, 30);
-        document.getElementById("rotation-speed").disabled = false;
     } else {
         clearInterval(timer);
-        document.getElementById("rotation-speed").disabled = true;
     }
 }
 
