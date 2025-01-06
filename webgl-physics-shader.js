@@ -184,7 +184,7 @@ class MeshDrawer {
      */
     setLightDir(x, y, z) {
         const length = Math.sqrt(x * x + y * y + z * z);
-        this.lightDir = [x / length, y / length, z / length];
+        this.lightDir = [-x / length, -y / length, z / length];
         gl.useProgram(this.prog);
         gl.uniform3fv(this.lightDirLoc, this.lightDir);
     }
