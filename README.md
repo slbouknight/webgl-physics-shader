@@ -4,7 +4,8 @@ An interactive WebGL-based project that combines advanced Blinn-Phong lighting a
 
 ## Demo
 
-[Video Demo Placeholder]
+https://github.com/user-attachments/assets/17ad563a-3568-4662-86d9-5e046a2c6d34
+
 
 ## Features
 
@@ -26,7 +27,7 @@ An interactive WebGL-based project that combines advanced Blinn-Phong lighting a
 
 2. Open the **webgl-physics-shader.html** file in your web browser.
 3. Use the controls on the right-hand panel to interact with the scene:
-   - Adjust physics and lighting paramters
+   - Adjust physics and lighting parameters
    - Load a custom OBJ model or texture image.
    - Enable/disable features like auto-rotation and axis swapping
 
@@ -38,7 +39,7 @@ This project uses the **Blinn-Phong reflection model** to simulate realistic lig
   - Specular: Adds shiny highlights based on the viewing angle and shininess coefficient.
 
 ### Physics Simulation
-The project features a mass-spring system implemented with semi-implicit Euler integration. Key componenets include:
+The project features a mass-spring system implemented with semi-implicit Euler integration. Key components include:
   - **Gravitational Forces:** Simulate downward acceleration
   - **Spring Forces:** Simulate elastic behavior between connected points.
   - **Collision Detection:** Keeps objects inside a bounding box, reversing and damping velocities upon impact.
@@ -65,6 +66,6 @@ Custom vertex and fragment shaders handle:
 
 ## Acknowledgements
 - Cem Yuksel: For providing the project setup and materials as part of his Intro to Computer Graphics course: https://graphics.cs.utah.edu/courses/cs4600/fall2020/
-- This project was developed as part of a self-driven learning exercise in WebGL, shader programming, and physics simulation.
+- This project was developed as part of a self-driven learning exercise in WebGL, shader programming, and physics simulation. Graphics code in webgl-physics-shader.js and GLSL implementation of meshVS and meshFS in webgl-physics-shader are my own, initial JavaScript and HTML templates were provided and slightly modified.
 
 
